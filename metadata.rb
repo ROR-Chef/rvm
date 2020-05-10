@@ -12,3 +12,4 @@ chef_version      '>= 12.9'
 %w(amazon centos redhat scientific oracle fedora debian ubuntu).each do |os|
   supports os
 end
+depends 'rvm'
